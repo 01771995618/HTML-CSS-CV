@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1dede;
+    font-family: 'Caprasimo', cursive;
+font-family: 'Lora', serif;
+}
+
+.Container{
+    max-width: 1000px;
+    background-color: rgb(226, 235, 247);
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+
+}
+.header-bio{
+    float: left;
+    padding:30px;
+
+}
+h1, h2, h3, h4, h5, h6{
+    color:rgb(124, 192, 192);
+}
+.header-contract {
+     float: right;
+     padding: 30px;
+}
+.header-contract a {
+    color: rgb(49, 139, 109);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-contract a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 2px;
+    width: 100%;
+    margin: 20px;
+    border-bottom: none;
+}
+/*------------------------
+Personal Section Start
+------------------------*/
+#personal-section{
+
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+    color: rgb(49, 139, 109);
+    margin: 5px 5px 5px 5px ;
+
+}
+.right-div{
+    width: 70%;
+    float: right;
+    margin:auto;
+    padding: 0;
+
+}
+.common-hr{
+    border:solid black 1px;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px;
+
+}
+.div-clean{
+    clear: both;
+}
+/* ---------------------
+Education Section Start
+-----------------------*/
+.edu-templete-left{
+    float: left;
+    width: 30%;
+
+}
+.edu-templete-right{
+    float: right;
+    width: 30%;
+}
+/*--------------------
+Footer Start
+---------------------*/
+.bottom-container{
+    background-color: #0f0202d7;
+    text-align: center;
+    color: White;
+}
